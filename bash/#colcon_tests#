@@ -1,0 +1,4 @@
+#! /bin/bash
+
+#$1 
+colcon test --event-handlers console_direct+ >>$1/colcon_tests.out 2>>$2/colcon_tests.err

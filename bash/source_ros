@@ -1,0 +1,6 @@
+#! /bin/bash
+
+#$1 : ros version to source
+#$2 : log folder
+
+source /opt/ros/$1/setup.bash 2>>$2/source_ros.err

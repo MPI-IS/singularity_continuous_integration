@@ -1,0 +1,5 @@
+#! /bin/bash
+
+cd workspace
+colcon graph --dot --legend | dot -Tpdf -o ../colcon_graph.pdf
+cd ..
